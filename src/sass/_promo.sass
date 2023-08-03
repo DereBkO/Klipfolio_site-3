@@ -1,0 +1,71 @@
+.container
+	width: 1168px
+	
+.promo
+	position: relative
+	min-height: 3203px
+	&::before
+		content: ''
+		width: 100%
+		height: 3203px
+		position: absolute
+		background: url('../img/main_1.png') center (center / cover) no-repeat
+		z-index: 10
+	&_block
+		position: relative
+		height: 782px
+		h1
+			position: absolute
+			margin: 176px 0 0 0
+			width: 485px
+			height: 212px
+			font-size: 86px
+			font-weight: 800
+			line-height: 1.23
+			letter-spacing: 2.64px
+			color: #21264f
+			z-index: -1
+		h2
+			position: absolute
+			margin: 407px 0 0 0
+			width: 445px
+			height: 154px
+			font-size: 32px
+			font-weight: 500
+			line-height: 1.2
+			letter-spacing: -0.27px
+			color: #21264f
+			z-index: -1
+		&_img
+			position: absolute
+			right: -48px
+			top: 64px
+			z-index: -1
+		.powerdemo
+			position: relative
+			.power
+				position: absolute
+				top: 610px
+				width: 247px
+				height: 48px
+				padding: 9px 23px 15px 24px
+				border: none
+				border-radius: 32px
+				background-color: #21264f
+				font-size: 16px
+				font-weight: 800
+				color: #fff
+				z-index: -1
+				&:hover
+					background-color: #3b448a
+				&:active
+					background-color: #fff
+			.demo
+				position: absolute
+				top: 623px
+				left: 263px
+				font-size: 16px
+				font-weight: 800
+				color: #21264f
+				z-index: -1
+				text-decoration: none
